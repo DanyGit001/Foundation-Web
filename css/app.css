@@ -1,0 +1,194 @@
+
+body {
+	background-color: black;
+	
+    	 
+}
+h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
+	font-family: 'Bree Serif', serif;
+}
+#social-container {
+	background-color: #1c3643
+}
+#logo-container .callout {
+	background-color: #ee3f54;
+	color: white;
+	margin-bottom: 0;
+}
+
+#menu-container {
+	background-color: #48a19d;
+	
+}
+
+#menu-container li a {
+	color: white;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+}
+
+#submenu-container {
+	border: 0;
+}
+
+#menu-container li a:hover,
+#submenu-container li a:hover {
+	color: #f6e15f;
+}
+
+#submenu-container li a {
+	background-color: #48a19d;
+	color: white;
+	
+}
+
+#tickets-action .callout {
+	background-color: #5e7eb7;
+	color: white;
+	margin-bottom: 0;
+}
+
+#tickets-action  .callout button {
+	color: white;
+	border: 1px solid white;
+}
+
+#lineup-container {
+	padding: 1em 0;
+}
+
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a {
+	background-color: #9676af;
+	color: white;
+	border: 0;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+.tabs-content {
+	border: 0;
+}
+
+#lineup-container .tabs .tabs-title a {
+	font-size: 18px;
+	color: #a7fffb;
+	
+	
+} 
+
+#lineup-container .tabs .tabs-title a:hover {
+	color: white;
+	background-color: #9676af;
+	
+}
+
+.tabs-title {
+	display: inline-block;
+	float: none;
+}
+
+#lineup-container .orbit-container {
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+	text-align: right;
+}
+
+#tickets-container {
+	padding: 1em 0;	
+	background-color: #f6e15f;
+	color: #161742;
+}
+
+.pricing-table {
+	border: 1px solid #161742;
+	font-family: 'Vast Shadow', cursive;
+}
+
+
+.pricing-table li,
+.pricing-table li.title,
+.pricing-table li.description {
+	font-size: 17px;
+}
+
+.pricing-table a.button {
+	font-family: 'Bree Serif', serif;
+}
+
+#info-container {
+	background-color: #161742;
+	color: white;
+    padding: 1em 0;
+}
+
+#suscribete-container {
+	background-color: #ee3f54;
+	color: white;
+	padding: 1em 0;
+}
+
+#suscribete-container h4 small {
+	color: #ffcddc;
+}
+
+#suscribete-container input[type="button"] {
+	font-family: 'Bree Serif', serif;
+}
+
+#suscribete-container .error-container {
+	font-family: 'Bree Serif', serif;
+}
+
+.is-invalid-input:not(:focus) {
+	background-color: rgb(255, 228, 228);
+	border-color: rgb(255, 228, 228);
+}
+
+.data-sticky {
+	width: 100%;
+	z-index: 100;
+}
+
+#offCanvas {
+	background-color: black;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+
+
+
+
+.cite {
+  border-left: 5px solid #ec5840;
+  padding: 10px 0 10px 30px;
+  margin: 0 0 1rem -10px; }
+  
+  .cite p {
+    font-style: italic;
+    color: #e6e6e6;
+	font-family: 'Bree Serif', serif;
+	}
+	
+	#offCanvas .is-drilldown-submenu-parent > a::after {
+		border-color: transparent transparent transparent white;
+	}
+	#offCanvas .js-drilldown-back> a::before{
+		border-color: transparent white transparent transparent;
+	}
+	
+	
+	
+	footer {
+		
+	background-color: #5147D7;
+	padding: 10px;
+	color: #ffcddc;
+	font-size: 12px;
+	text-align: center;
+}
