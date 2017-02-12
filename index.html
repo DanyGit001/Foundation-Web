@@ -54,6 +54,17 @@
    </a>
    <h2>
    </div>
+   
+   <div class="small-1 column">
+   <h2>
+   <a href="https://www.youtube.com/channel/UCEIhz7ociBcFrpOgrzNj3WQ" target="_blank">
+   <i class="fi-social-youtube"></i>
+   </a>
+   <h2>
+   </div>
+   
+   
+   
    </div>
    </section>
   <!-- /social -->
@@ -126,7 +137,7 @@
    <div class="small-12 medium-4 columns">
    <a href="#">
    <div class="imagen">
-   <img src="C:\Users\Mante\Foundation\assets\foto2.png">
+   <img src="https://imageshack.com/i/pmERxQxsp">
    <div class="titulo">
    <h3>E-Book</h3>
    </div>
@@ -166,7 +177,7 @@
    <div class= "small-6  medium-4.7 columns">
    <a href="#">
    <div class="imagen">
-   <img class="thumbnail" src="C:\Users\Mante\Foundation\assets\DEMO.png">
+   <img class="thumbnail" src="https://imageshack.com/i/poSrJ3t6p">
    <div class="titulo">
    <h3>Vista Previa</h3>
    </div>
@@ -233,11 +244,12 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
        </li>
 	   
        <li class="bullet-item">1<span> E-Book</span></li>
-       <li class="bullet-item">¡! <span>Leelo en cualquier dispositivo con acceso a internet  </span>  </li>
+       <li class="bullet-item">¡! <span>Se puede leer en cualquier dispositivo con acceso a internet  </span>  </li>
        <li class="bullet-item"> <span> </span></li>
        <li class="cta-button text-center"><form action="https://compropago.com/comprobante" method="post"><input type="hidden" name="public_key" value="pk_test_608531210324021770"><input type="hidden" name="product_price" value="69.90"><input type="hidden" name="product_name" value="Ebook-El Salon Fantasma"><input type="hidden" name="product_id" value=""><input type="hidden" name="customer_name" value=""><input type="hidden" name="customer_email" value=""><input type="hidden" name="customer_phone" value=""><input type="hidden" name="image_url" value="https://compropago.s3.amazonaws.com/button/image_url/10367/foto2.png"><input type="hidden" name="success_url" value=""><input type="hidden" name="failed_url" value=""><input type="image" src="https://compropago.com/assets/payment-green-btn.png" border="0" name="submit" alt="Pagar con ComproPago"></form></li>
      </ul>
    </div>
+   
    
    
   <div class="medium-4 columns">
@@ -252,9 +264,12 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
        <li class="bullet-item">1<span> E-Book</span></li>
        <li class="bullet-item">$ <span> Pago en Efectivo/Tarjeta</span></li>
        <li class="bullet-item"> <span> </span></li>
-       <li class="cta-button text-center"><button class="button" href="#">PROXIMAMENTE</button></li>
+       <li class="cta-button text-center"><button  data-open="modalReservar" class="button">REGALAR</button></li>
      </ul>
    </div>
+   
+   
+   
    
    
   <div class="medium-4 columns">
@@ -267,7 +282,7 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
 	   
 	   
        <li class="bullet-item">1<span> E-Book</span></li>
-       <li class="bullet-item">¡! <span> Leelo en cualquier dispositivo con acceso a internet</span></li>
+       <li class="bullet-item">¡! <span> Se puede leer en cualquier dispositivo con acceso a internet</span></li>
        <li class="bullet-item"> <span> </span></li>
        <li class="cta-button text-center"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -291,7 +306,35 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
 	
 	<!-- /Comprar -->
 	
-
+<div class="reveal" id="modalReservar" data-Reveal>
+ <h2 class="text-center">Formulario de Envio</h2>
+ 
+ <form>
+    <div class="row columns">
+	<label>Nombre: (Destinario)
+	<input type="text" placeholder="Su nombre">
+	</label>
+	</div>
+	<div class="row columns">
+	<label>Email: (Destinario)
+	<input type="text" placeholder="Su Email">
+	</label>
+	</div>
+	<div class="row columns">
+	<label>Mensaje
+	<textarea placeholder="Ejemplo-Te quiero mucho prima ojala te fascine este Ebook. (Jose)  "></textarea>
+	</label>
+	</div>
+	
+	<div class="row columns">
+	<input type="submit" class="button" value="Enviar">
+	
+	<button class="button success" type="reset" value="Reset">Reset</button>
+	
+	</div>
+ </form>
+ 
+</div>
 
 
 
@@ -324,7 +367,12 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
 	 <!-- /Suscribete -->
 	
 	
-	
+<form method="POST" action="http://formspree.io/al12542062@unadmexico.mx">
+  <input type="email" name="email" placeholder="Your email">
+ <input type="hidden" name="_next" value="https://compropago.com/comprobante/?id=0ecf340a-742e-402a-be13-15347b8422eb" />
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
 	
 	
   
@@ -342,6 +390,8 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
 	
 	   
          <div class="profile-card">
+		 
+		 <center>
             <div class="row column small-10 small-offset-1 medium-6 medium-offset-4">
                <a href="https://s3.amazonaws.com/uifaces/faces/twitter/BillSKenney/128.jpg">
                   <img src="https://s3.amazonaws.com/uifaces/faces/twitter/BillSKenney/128.jpg" alt="profile image"> </a>
@@ -359,6 +409,9 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
                   <li><a href="https://twitter.com/RDNyel" class="button"> Views <span>25 </span></a></li>
                </ul>
             </div>
+			</center>
+			
+			
          </div>
       </div>
    </div>
