@@ -306,23 +306,38 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
 	
 	<!-- /Comprar -->
 	
-<div class="reveal" id="modalReservar" data-Reveal>
+<div class="reveal" id="modalReservar" data-reveal data-animation-in="scale-in-up" data-animation-out="scale-out-down">
  <h2 class="text-center">Formulario de Envio</h2>
  
- <form>
+ <form action="https://formspree.io/AL12542062@UNADMEXICO.MX" method="POST" novalidate data-abide> 
+      <input type="hidden" name="_next" value="https://compropago.com/comprobante/?id=0ecf340a-742e-402a-be13-15347b8422eb"/>
+     <div class="alert callout" style="display:none;" data-abide-error>
+	 <p><i class="fi-alert"></i> Hay problemas en tu formulario! </p>
+	 </div>
+
+ 
     <div class="row columns">
 	<label>Nombre: (Destinario)
-	<input type="text" placeholder="Su nombre">
+	<input type="text" name="name" placeholder="Su nombre" required>
+	<span class="form-error">
+	<i class="fi-alert"></i> Su nombre es obligatorio!
+	</span>
+	
+	
 	</label>
 	</div>
 	<div class="row columns">
 	<label>Email: (Destinario)
-	<input type="text" placeholder="Su Email">
+	<input type="text" name="_replyto" placeholder="Su Email" required pattern="email">
+	<span class="form-error">
+	<i class="fi-alert"></i> Su email es obligatorio!
+	</span>
 	</label>
+	
+	
 	</div>
 	<div class="row columns">
 	<label>Mensaje
-	<textarea placeholder="Ejemplo-Te quiero mucho prima ojala te fascine este Ebook. (Jose)  "></textarea>
 	</label>
 	</div>
 	
@@ -330,6 +345,7 @@ A este sitio...el que se vuelve ideal para fijar y acercarnos a un enriquecido c
 	<input type="submit" class="button" value="Enviar">
 	
 	<button class="button success" type="reset" value="Reset">Reset</button>
+	
 	
 	</div>
  </form>
