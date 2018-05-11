@@ -175,6 +175,15 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 
 
 
+.cite1 {
+  border-left: 5px solid #ec5840;
+  padding: 10px 0 10px 30px;
+  margin: 0 0 1rem -10px; }
+  
+  .cite1 p {
+	  color: #F68B0A;  
+  }
+
 
 .cite {
   border-left: 5px solid #ec5840;
@@ -206,7 +215,18 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 }
 
 
+.colores {
+	background-color: #F3310A;
+	text-align: center;
+	font-size: 22px;
+}
 
+.descripcion {
+	background-color: #F1EFEC;
+	text-align: center;
+	font-size: 15px;
+	color: #0D0803 ;
+}
 
 
 
