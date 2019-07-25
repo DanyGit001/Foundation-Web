@@ -15,3 +15,6 @@ $offCanvas.find('li').click(function (ev) {
 	$sticky.css('left', '0px')
 	}, 300)
 })
+
+
+
