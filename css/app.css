@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, button, input[type="submit"] {
 }
 
 #tickets-action  .callout button {
-	color: white;
+	color: rgb(251, 255, 0);
   border: 1px solid white;
   
 }
